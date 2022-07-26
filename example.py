@@ -12,7 +12,7 @@ pb2.draw(43, True)
 pb3.draw(22, True)
 pb4.draw(60, True)
 
-pB5 = pB.ProgressBar()
+pb5 = pB.ProgressBar()
 for percent in range(101):
-    pB5.draw(percent)
+    pb5.draw(percent)
     time.sleep(0.2)
